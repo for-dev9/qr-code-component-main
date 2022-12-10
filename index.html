@@ -30,7 +30,7 @@
         font-family: 'Outfit', serif;
       }
 
-      .center {
+      .container {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -44,13 +44,18 @@
         max-width: 270px;
         text-align: center;
         padding: 15px;
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.1);
+      }
+
+      .box img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
       }
 
       .title {
         font-size: 21px;
         font-weight: 700;
-        padding: 0 3px 0 3px;
       }
 
       .content {
@@ -65,13 +70,9 @@
     />
   </head>
   <body>
-    <main class="center">
+    <main class="container">
       <div class="box">
-        <img
-          src="images/image-qr-code.png"
-          alt="QR Code"
-          style="border-radius: 10px; width: 100%; height: auto"
-        />
+        <img src="images/image-qr-code.png" alt="QR Code" />
 
         <h1 class="title">
           Improve your front-end skills by building projects
